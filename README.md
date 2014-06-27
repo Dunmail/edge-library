@@ -7,6 +7,11 @@ Node module to simplify use of edge.js to wrap .NET libraries.
 2. Methods are lower-cased
 3. Methods are wrapped in $q promises
 4. Arguments are transformed to an array
+ 
+
+## Status
+
+[![Build Status](https://travis-ci.org/Dunmail/edge-library.png)](https://travis-ci.org/Dunmail/edge-library)
 
 ## Installation
 
