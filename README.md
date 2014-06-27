@@ -49,7 +49,7 @@ lib.reflectstring('edge.js rocks!').then(
     function(err){
         console.log('ERR:', err);
     }
-        );
+);
 ```  
 
 Methods with more than one argument are transformed to an array: 
