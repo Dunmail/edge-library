@@ -1,0 +1,42 @@
+{
+    "name": "edge-library",
+    "version": "0.0.2",
+    "description": "Simplifying use of edge.js to wrap .NET libraries",
+    "keywords": ["node.js", "edge.js", ".NET"],
+    "bugs": {
+        "email": "dunmail@blackpear.com"
+    },
+    "author": {
+        "name": "Dunmail Hodkinson",
+        "email": "dunmail@blackpear.com"
+    },
+    "contributors": [
+        {
+            "name": "Dunmail Hodkinson",
+            "email": "dunmail@blackpear.com"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:Dunmail/edge-library.git"
+    },
+    "main": "./lib/edge-library.js",
+    "engines": {
+        "node": ">=0.8"
+    },
+    "dependencies": {
+        "edge": "~0.9.0",
+        "q": "~1.0.1"
+    },
+    "dev-dependencies": {
+        "mocha": "~1.20.1"
+    },
+    "scripts": {
+        "test": "mocha --recursive -R list test"
+    },
+    "licenses": [
+        {
+            "type": "Apache License, Version 2.0"
+        }
+    ]
+}
