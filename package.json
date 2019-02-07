@@ -1,8 +1,12 @@
 {
     "name": "edge-library",
-    "version": "0.0.3",
+    "version": "1.0.0",
     "description": "Simplifying use of edge.js to wrap .NET libraries",
-    "keywords": ["node.js", "edge.js", ".NET"],
+    "keywords": [
+        "node.js",
+        "edge.js",
+        ".NET"
+    ],
     "bugs": {
         "email": "dunmail@blackpear.com"
     },
@@ -25,14 +29,12 @@
     },
     "main": "./lib/edge-library.js",
     "engines": {
-        "node": ">=0.8"
+        "node": ">= 6"
     },
     "dependencies": {
-        "edge": ">=0.9.0",
-        "q": "~1.0.1"
-    },
-    "devDependencies": {
-        "mocha": ">=npm publish1.20.1"
+        "edge-js": "^11.3.0",
+        "mocha": "^5.2.0",
+        "q": "^1.5.1"
     },
     "scripts": {
         "test": "mocha --recursive -R list test"
