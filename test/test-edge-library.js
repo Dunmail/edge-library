@@ -1,7 +1,7 @@
-var EdgeLibrary = require('../lib/edge-library').EdgeLibrary;
-var assert = require('assert');
+const EdgeLibrary = require('../lib/edge-library').EdgeLibrary;
+const assert = require('assert');
 
-var test_library_definition = {
+const test_library_definition = {
     assemblyFile: require('path').join(__dirname, './cs/bin/Release/com.blackpear.edge.test.dll'),
     type: {
         name: 'com.blackpear.edge.test.Lib',
@@ -20,7 +20,7 @@ var test_library_definition = {
 
 describe('edge-library', function () {
 
-    var lib = new EdgeLibrary(test_library_definition);
+    const lib = new EdgeLibrary(test_library_definition);
 
     function fail() {}
 
