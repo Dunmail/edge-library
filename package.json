@@ -1,6 +1,6 @@
 {
     "name": "edge-library",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "description": "Simplifying use of edge.js to wrap .NET libraries",
     "keywords": [
         "node.js",
@@ -32,7 +32,7 @@
         "node": ">= 6"
     },
     "dependencies": {
-        "edge-js": "^19.3.0"
+        "edge-js": "^22.7.0"
     },
     "scripts": {
         "test": "mocha --recursive -R list test"
@@ -43,6 +43,6 @@
         }
     ],
     "devDependencies": {
-        "mocha": "^10.2.0"
+        "mocha": "^10.7.3"
     }
 }
